@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand / Theme Colors -->
+    <color name="primary">#00E5FF</color>
+    <color name="primary_variant">#00B0FF</color>
+    <color name="on_primary">#001018</color>
+
+    <color name="secondary">#3D5AFE</color>
+    <color name="secondary_variant">#304FFE</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <!-- Automotive Dark Background Colors -->
+    <color name="background_dark">#0A0E17</color>
+    <color name="surface_card">#131B2A</color>
+    <color name="surface_card_stroke">#1E2C42</color>
+    <color name="surface_card_secondary">#1B263B</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#90A4AE</color>
+    <color name="text_tertiary">#546E7A</color>
+
+    <!-- Safety Warning Colors -->
+    <color name="alert_critical_bg">#4A0E17</color>
+    <color name="alert_critical_accent">#FF1744</color>
+    <color name="alert_warning_bg">#4A3B0E</color>
+    <color name="alert_warning_accent">#FFAB00</color>
+    <color name="alert_info_bg">#0E2A4A</color>
+    <color name="alert_info_accent">#29B6F6</color>
+    <color name="status_safe_green">#00E676</color>
+
+    <!-- Hardware Interface Colors -->
+    <color name="hardware_connected">#00E676</color>
+    <color name="hardware_disconnected">#FF5252</color>
+    <color name="hardware_connecting">#FFD600</color>
+    <color name="hardware_chip_bg">#212E46</color>
+
+    <!-- Radar Colors -->
+    <color name="radar_grid">#16324A</color>
+    <color name="radar_sweep">#1A4060</color>
+    <color name="radar_host">#00E5FF</color>
+    <color name="radar_target">#FFAB00</color>
+    <color name="radar_danger">#FF1744</color>
+</resources>

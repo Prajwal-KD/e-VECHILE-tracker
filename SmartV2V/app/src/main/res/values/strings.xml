@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart V2V System</string>
+    <string name="app_subtitle">Vehicle-to-Vehicle Safety &amp; Telemetry</string>
+
+    <!-- Vehicle Types -->
+    <string name="type_car">Car</string>
+    <string name="type_bike">Bike</string>
+    <string name="type_truck">Truck</string>
+    <string name="type_bus">Bus</string>
+
+    <!-- Host Vehicle Status -->
+    <string name="vehicle_identity">Host Vehicle</string>
+    <string name="vehicle_id_label">Vehicle ID:</string>
+    <string name="speed_unit">km/h</string>
+    <string name="speed_label">Speed</string>
+    <string name="heading_label">Heading</string>
+    <string name="telemetry_active">Transmitting V2V Beacon</string>
+
+    <!-- Hardware Bridge -->
+    <string name="hardware_title">On-Board Hardware Unit (ECU/OBD)</string>
+    <string name="hardware_disconnected">Hardware Disconnected</string>
+    <string name="hardware_connected">Hardware Linked (ESP32/HC-05)</string>
+    <string name="hardware_connecting">Connecting to Hardware...</string>
+    <string name="hardware_btn_connect">Connect HW</string>
+    <string name="hardware_btn_disconnect">Disconnect</string>
+    <string name="hardware_test_bench">Test Bench (Simulated HW)</string>
+    <string name="hw_brake_sensor">Brake Sensor:</string>
+    <string name="hw_turn_switch">Turn Switch:</string>
+    <string name="hw_gps_fix">Ext GPS Fix:</string>
+
+    <!-- Safety Warnings -->
+    <string name="safety_status_normal">V2V Radar Active - Path Clear</string>
+    <string name="emergency_brake_alert">CRITICAL: Emergency Brake Ahead!</string>
+    <string name="turn_indicator_alert">CAUTION: Vehicle Turning Into Path</string>
+    <string name="hazard_alert">WARNING: Road Hazard Detected</string>
+
+    <!-- Safety Controls -->
+    <string name="action_emergency_brake">EMERGENCY BRAKE</string>
+    <string name="action_turn_left">LEFT TURN</string>
+    <string name="action_turn_right">RIGHT TURN</string>
+    <string name="action_hazard_flashers">HAZARD FLASH</string>
+    <string name="action_custom_hazard">BROADCAST HAZARD</string>
+
+    <!-- Radar & Logs -->
+    <string name="section_radar">V2V Spatial Radar</string>
+    <string name="section_nearby_vehicles">Nearby Detected Vehicles</string>
+    <string name="section_message_log">V2V Network Packet Stream</string>
+    <string name="no_nearby_vehicles">No vehicles in direct transmission range (150m)</string>
+    <string name="no_messages_yet">Listening for V2V broadcast packets on port 8888...</string>
+</resources>
